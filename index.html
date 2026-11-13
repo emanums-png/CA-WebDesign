@@ -17,190 +17,212 @@
 	</head>
 
 	<body>
-		<div class="header">
-			<div class="row">
-				<div class="col">
-					<img src="#" alt="Logo">
-				</div>
+		<header>
+			
+		<nav class="navbar navbar-expand-lg border-bottom">
+			<div class="container-fluid">
+			  	<a class="navbar-brand" href="index.html">
+					<img src="MA_image.png" alt="image description">
+			  	</a>
+			  	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+				  		<li class="nav-item">
+					<a href="index.html"><button class="btn btn-outline-secondary me-2" type="button">Home</button></a>
+				 		</li>
+				  	<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Dropdown
+					</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="screenTime.html">Screen Time & Well-being</a></li>
+						<li><a class="dropdown-item" href="activity.html">Physical Activity</a></li>
+						<li><a class="dropdown-item" href="healthSystem.html">Access to Health System</a></li>
+						<li><a class="dropdown-item" href="mentalHealth.html">Mental Health</a></li>
+						<li><a class="dropdown-item" href="sleep.html">Sleep & Productivity</a></li>
+						<li><a class="dropdown-item" href="smoking.html">Smoking & Vaping</a></li>
+						<li><a class="dropdown-item" href="food.html">Food & Nutrition</a></li>
+					</ul>
+				  	</li>
+				 	<li class="nav-item">
+						<a href="contact.html"><button class="btn btn-outline-secondary" type="button">Contact</button></a>
+				  	</li>
+					</ul>
+			  	</div>
+			</div>
+		</nav>
+		</header>
 
-				<div class="col">
-					<div class="nav">
-						<a href="index.html">Home</a>
-						<a href="contact.html">Contact</a>
-						<div class="dropdown">
-							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-								Topics
-							</button>
-							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-								<a class="dropdown-item" href="screenTime.html">Screen Time &amp; Well-Being</a>
-								<a class="dropdown-item" href="sleep.html">Sleep &amp; Productivity</a>
-								<a class="dropdown-item" href="mentalHealth.html">Student Mental Health</a>
-								<a class="dropdown-item" href="smoking.html">Smoking &amp; Vaping</a>
-								<a class="dropdown-item" href="food.html">Food &amp; Nutrition</a>
-								<a class="dropdown-item" href="activity.html">Physical Activity</a>
-								<a class="dropdown-item" href="healthSystem.html">Access to Healthcare</a>
+		<main>
+ 
+			<!-- HERO -->
+			<section class="container py-5">
+				<div class="row align-items-center g-4">
+					<div class="col-md-6">
+						<h1>Good Health and Well-being</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#topics" class="btn btn-dark">button</a>
+						<a href="#about" class="btn btn-outline-dark">button</a>
+					</div>
+					<div class="col-md-6">
+						<img src="#" class="img-fluid" alt="EM">
+					</div>
+				</div>
+			</section>
+ 
+			<!-- ABOUT -->
+			<section id="about" class="container py-5 border-top">
+				<div class="row align-items-center g-4">
+					<div class="col-md-4">
+						<img src="#" class="img-fluid" alt="EM">
+					</div>
+					<div class="col-md-8">
+						<h2>Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+						
+					</div>
+				</div>
+			</section>
+ 
+			<!-- TOPICS: 1 card per row on mobile, 4 on desktop -->
+			<section id="topics" class="container py-5 border-top">
+				<h2 class="mb-4">Title</h2>
+ 
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+ 
+					<div class="col">
+						<div class="card h-100">
+							<img src="#" class="card-img-top" alt="EM">
+							<div class="card-body">
+								<h3 class="card-title h5">Screen Time & Well-being</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet.</p>
+								<a href="screenTime.html">Read more</a>
 							</div>
 						</div>
 					</div>
+ 
+					<div class="col">
+						<div class="card h-100">
+							<img src="#" class="card-img-top" alt="EM">
+							<div class="card-body">
+								<h3 class="card-title h5">Physical Activity</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet.</p>
+								<a href="mentalHealth.html">Read more</a>
+							</div>
+						</div>
+					</div>
+ 
+					<div class="col">
+						<div class="card h-100">
+							<img src="#" class="card-img-top" alt="EM">
+							<div class="card-body">
+								<h3 class="card-title h5">Access to health System</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet.</p>
+								<a href="activity.html">Read more</a>
+							</div>
+						</div>
+					</div>
+ 
+					<div class="col">
+						<div class="card h-100">
+							<img src="#" class="card-img-top" alt="EM">
+							<div class="card-body">
+								<h3 class="card-title h5">Mental health</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet.</p>
+								<a href="sleep.html">Read more</a>
+							</div>
+						</div>
+					</div>
+ 
+					<div class="col">
+						<div class="card h-100">
+							<img src="#" class="card-img-top" alt="EM">
+							<div class="card-body">
+								<h3 class="card-title h5">Sleep & Productivity</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet.</p>
+								<a href="smoking.html">Read more</a>
+							</div>
+						</div>
+					</div>
+ 
+					<div class="col">
+						<div class="card h-100">
+							<img src="#" class="card-img-top" alt="EM">
+							<div class="card-body">
+								<h3 class="card-title h5">Smoking & Vaping</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet.</p>
+								<a href="healthSystem.html">Read more</a>
+							</div>
+						</div>
+					</div>
+ 
+					<div class="col">
+						<div class="card h-100">
+							<img src="#" class="card-img-top" alt="EM">
+							<div class="card-body">
+								<h3 class="card-title h5">Food & Nutrition</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet.</p>
+								<a href="vaccination.html">Read more</a>
+							</div>
+						</div>
+					</div>
+ 
+					<div class="col">
+						<div class="card h-100">
+							<img src="#" class="card-img-top" alt="EM">
+							<div class="card-body">
+								<h3 class="card-title h5">Contact</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet.</p>
+								<a href="food.html">Read more</a>
+							</div>
+						</div>
+					</div>
+ 
+				</div>
+			</section>
+ 
+			<!-- DID YOU KNOW (JavaScript will change the text in #fact-text) -->
+			<section class="bg-light border-top">
+				<div class="container py-5">
+					<div class="row align-items-center g-4">
+						<div class="col-md-9">
+							<h2>Did you know?</h2>
+							<p id="fact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<div class="col-md-3 text-md-end">
+							<button type="button" id="fact-btn" class="btn btn-dark">Show another fact</button>
+						</div>
+					</div>
+				</div>
+			</section>
+ 
+		</main>
+ 
+		<!-- FOOTER -->
+		<footer class="bg-light border-top">
+			<div class="container py-4">
+				<div class="row g-4">
+
+					<div class="col-md-4">
+						<h3 class="h5">About</h3>
+						<p>Group project, NCI 2026</p>
+						<p>&copy; 2026 Group H</p>
+					</div>
+					
+					<div class="col-md-4">
+						<h3 class="h5">Quick links</h3>
+						<ul class="list-unstyled">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#topics">Topics</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					
 				</div>
 			</div>
-
-			<h1>
-			</h1>
-		</div>
-
-		<div class="container">
-
-			<div class="hero">
-				<div class="row">
-					<div class="col">
-						<h1>Good Health and Wellbeing</h1>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-						<a href="">button</a>
-						<a href="">button</a>
-					</div>
-
-					<div class="col">
-						<img src="#" alt="imagehero">
-					</div>
-				</div>
-
-			</div>
-
-			<div class="about">
-				<div class="row">
-					<div class="col">
-						<img src="#" alt="image about">
-					</div>
-					<div class="col">
-						<h2>Title</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-
-				</div>	
-			</div>	
-
-
-
-
-
-			<div class="topics">
-				<div class="row">
-					<div class="col">
-						<section class="card" style="max-width: 320px">
-						  <img src="..." class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <h4 class="card-title">Card title</h4>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-						    <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-						  </div>
-						</section>
-					</div>
-
-					<div class="col">
-						<section class="card" style="max-width: 320px">
-						  <img src="..." class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <h4 class="card-title">Card title</h4>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-						    <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-						  </div>
-						</section>
-					</div>
-
-					<div class="col">
-						<section class="card" style="max-width: 320px">
-						  <img src="..." class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <h4 class="card-title">Card title</h4>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-						    <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-						  </div>
-						</section>
-					</div>
-
-				</div>
-
-				<div class="row">
-					<div class="col">
-						<section class="card" style="max-width: 320px">
-						  <img src="..." class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <h4 class="card-title">Card title</h4>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-						    <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-						  </div>
-						</section>
-					</div>
-
-					<div class="col">
-						<section class="card" style="max-width: 320px">
-						  <img src="..." class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <h4 class="card-title">Card title</h4>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-						    <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-						  </div>
-						</section>
-					</div>
-
-					<div class="col">
-						<section class="card" style="max-width: 320px">
-						  <img src="..." class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <h4 class="card-title">Card title</h4>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-						    <a href="#" class="btn-solid theme-primary">Go somewhere</a>
-						  </div>
-						</section>
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="lastBlock">
-				<div class="row">
-					<div class="col">
-						<h2>title</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-						</p>
-					</div>
-					<div class="col">
-						<a href="#">button</a>
-					</div>
-				</div>
-			</div>
-
-		</div>	
-		<div class='footer'>
-			<div class="row">
-				<div class="col">
-					<h3>Quick links</h3>
-					<a href="#">link</a>
-					<a href="#">link</a>
-					<a href="#">link</a>
-				</div>
-				<div class="col">
-					<h3>About</h3>
-					<p>&copy; 2026 My website</p>
-				</div>
-
-
-		</div>
+		</footer>
 
 		<!-- Bootstrap JS (makes the dropdown open) -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
