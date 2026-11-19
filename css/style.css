@@ -21,4 +21,13 @@ header {
 
 body {
 	background-color: #d6e5e3;
+
+.logo2 {
+	height: 90px;
+	width: auto;
+}
+
+.heading6 {
+	font-size: 1rem;
+
 }
