@@ -1,8 +1,24 @@
+/*<weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name */
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .logo {
 	height: 90px;
 	width: auto;
 }
 
-.heading6 {
-	font-size: 1rem;
+header {
+	background-color: #17324d;
+	font-family: font-family: "Inter", sans-serif;
+	
+}
+
+body {
+	background-color: #d6e5e3;
 }
