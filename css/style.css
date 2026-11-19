@@ -15,8 +15,59 @@
 
 header {
 	background-color: #17324d;
-	font-family: font-family: "Inter", sans-serif;
 	
+}
+
+.title {
+	color: white;
+	font-family: Inter, sans-serif;
+	font-weight: 600;
+	font-size: 2rem;
+	margin-top: 20px;
+}
+
+/* ===== Navbar: Home, Topics e Contact ===== */
+
+/* COLORS */
+.navbar .btn-outline-secondary,
+.navbar .nav-link.dropdown-toggle {
+  --nav-text: #17324d;           
+  --nav-bg: #f7f5ef;             
+
+  --nav-text-hover: #f7f5ef;     
+  --nav-bg-hover: #17324d;       
+}
+
+/* 2. SHAPE */
+.navbar .btn-outline-secondary,
+.navbar .nav-link.dropdown-toggle {
+  color: var(--nav-text);
+  background-color: var(--nav-bg);
+  border: none;                  
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* HOVER, FOCUS */
+.navbar .btn-outline-secondary:hover,
+.navbar .btn-outline-secondary:focus,
+.navbar .btn-outline-secondary:active,
+.navbar .nav-link.dropdown-toggle:hover,
+.navbar .nav-link.dropdown-toggle:focus,
+.navbar .nav-link.dropdown-toggle.show {
+  color: var(--nav-text-hover);
+  background-color: var(--nav-bg-hover);
+  border: none;
+}
+.navbar .navbar-nav {
+  gap: 0.5rem;
+}
+.navbar .navbar-nav .btn.me-2 {
+  margin-right: 0 !important;
 }
 
 body {
@@ -27,7 +78,5 @@ body {
 	width: auto;
 }
 
-.heading6 {
-	font-size: 1rem;
 
-}
+
