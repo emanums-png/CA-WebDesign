@@ -70,8 +70,15 @@ header {
   margin-right: 0 !important;
 }
 
+.banner {
+	height: 450px;
+	object-fit: cover;
+	object-position: top;
+}
+
 body {
 	background-color: #d6e5e3;
+}
 
 .logo2 {
 	height: 90px;
