@@ -90,5 +90,11 @@ footer {
   color: white;
 }
 
+.card-img-top {
+  height: 225px;
+  object-fit: cover;
+  object-position: top;
+}
+
 
 
