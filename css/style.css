@@ -81,13 +81,17 @@ body {
 }
 
 .logo2 {
-	height: 90px;
+	height: 150px;
 	width: auto;
 }
 
 footer {
   background-color: #17324d;
   color: white;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .card-img-top {
