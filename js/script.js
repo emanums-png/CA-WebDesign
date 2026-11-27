@@ -19,3 +19,10 @@ function showNextFact(){
 if (didYouKnowButton) {
 	didYouKnowButton.addEventListener("click", showNextFact);
 }
+
+
+//MA - Confirm box for external links, sleep.html and mentalHealth.html
+
+function confirmRedirect() {
+	return confirm('You Will be Redirected to an External Website. Do you Want to Continue?');
+}

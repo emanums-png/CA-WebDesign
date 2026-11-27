@@ -63,8 +63,8 @@
 				<div class="col-md-7">
 					<h2>Mental Health is Health Too!</h2>
 					<p>The SDG from UN want to promote Mental Health and Well Being until 2030. Almost 1 into 7 persons in the world live with mental health problems, anxiety and depression, those are the most common ones. There are some effective treatments but the majority of people don't have acess. </p>
-					<a href="https://www.informea.org/en/goals/sustainable-development-goals/goal-3-good-health-and-well-being/target-34" class="btn btn-outline-secondary btn-sm me-2" target="_blank">Learn more (SDG 3.4)</a>
-					<a href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders" class="btn btn-outline-secondary btn-sm" target="_blank">Learn more (WHO)</a>
+					<a href="https://www.informea.org/en/goals/sustainable-development-goals/goal-3-good-health-and-well-being/target-34" class="btn btn-outline-secondary btn-sm me-2" target="_blank" onclick="return confirmRedirect()">Learn More</a>
+					<a href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders" class="btn btn-outline-secondary btn-sm" target="_blank" onclick="return confirmRedirect()">Learn More</a>
 				</div>
 			</div>
 		</section>
@@ -77,7 +77,7 @@
 						<div class="card-body">
 							<h5 class="card-title">A Global Challenge</h5>
 							<p class="card-text">Without treatment, mental disorders can mess up with daily life and cause suffering for a long time. A lot of people also suffer with stigma and discrimination.</p>
-							<a href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders" class="btn btn-outline-secondary btn-sm" target="_blank">Learn more (WHO)</a>
+							<a href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders" class="btn btn-outline-secondary btn-sm" target="_blank" onclick="return confirmRedirect()">Learn More</a>
 						</div>
 					</div>
 				</div>
@@ -86,7 +86,7 @@
 						<div class="card-body">
 							<h5 class="card-title">Job Impact</h5>
 							<p class="card-text">Depression and anxiety cause around 12 billion of lost work days per year and cost around 1 trillion of dollars to the global economy.</p>
-							<a href="https://who.foundation/mental-health" class="btn btn-outline-secondary btn-sm" target="_blank">Learn more (WHO Foundation)</a>
+							<a href="https://who.foundation/mental-health" class="btn btn-outline-secondary btn-sm" target="_blank" onclick="return confirmRedirect()">Learn More</a>
 						</div>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 								<li>Ask for help as soon as possible, treatment works.</li>
 								<li>If you are going thorugh difficulties in your life, talk with someone you can trust.</li>
 							</ul>
-							<a href="https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing" class="btn btn-outline-secondary btn-sm" target="_blank">Learn more (NHS)</a>
+							<a href="https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing" class="btn btn-outline-secondary btn-sm" target="_blank" onclick="return confirmRedirect()">Learn More</a>
 						</div>
 					</div>
 				</div>
@@ -148,17 +148,6 @@
 
 	<!-- Bootstrap JS -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-	<!-- Confirm box for external links -->
-	<script>
-		const links = document.querySelectorAll('a[target="_blank"]');
-
-		links.forEach(function (link) {
-			link.addEventListener('click', function (event) {
-				if (!confirm('You Will be Redirected to an External Website. Do you Want to Continue?')) {
-					event.preventDefault();
-				}
-			});
-		});
-	</script>
+		<script src="js/script.js"></script>
 </body>
 </html>
