@@ -90,6 +90,11 @@ footer {
   color: white;
 }
 
+footer a {
+  background-color: #17324d;
+  color: white;
+}
+
 .card-img-top {
   height: 225px;
   object-fit: cover;
