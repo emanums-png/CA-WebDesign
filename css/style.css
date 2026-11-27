@@ -70,7 +70,7 @@ header {
   margin-right: 0 !important;
 }
 
-.banner {
+.banner_ST {
 	height: 450px;
 	object-fit: cover;
 	object-position: top;
@@ -96,5 +96,14 @@ footer {
   object-position: top;
 }
 
+.EM_image {
+  border-radius: 15px;
+}
+
+.EM_relatedTopic {
+  height: 130px;
+  object-fit: cover;
+  object-position: top;
+}
 
 
